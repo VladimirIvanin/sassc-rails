@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sassc/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sassc-rails"
+  spec.name          = "sassc4-rails"
   spec.version       = SassC::Rails::VERSION
-  spec.authors       = ["Ryan Boland"]
-  spec.email         = ["ryan@tanookilabs.com"]
+  spec.authors       = ["Ryan Boland", "Vladimir Ivanin"]
+  spec.email         = ["ryan@tanookilabs.com", "ivaninww@gmail.com"]
   spec.summary       = %q{Integrate SassC-Ruby into Rails.}
   spec.description   = %q{Integrate SassC-Ruby into Rails.}
   spec.homepage      = "https://github.com/sass/sassc-rails"
