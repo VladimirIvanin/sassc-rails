@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ryan@tanookilabs.com", "ivaninww@gmail.com"]
   spec.summary       = %q{Integrate SassC-Ruby into Rails.}
   spec.description   = %q{Integrate SassC-Ruby into Rails.}
-  spec.homepage      = "https://github.com/sass/sassc-rails"
+  spec.homepage      = "https://github.com/VladimirIvanin/sassc-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
